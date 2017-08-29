@@ -5,7 +5,7 @@ import java.lang.reflect.Method;
 import java.util.HashSet;
 
 public class ProfileLogger {
-	static HashSet<String> methodsHit;
+	static HashSet<String> methodsHit = new HashSet<String>();
 
 	/**
 	 * This method is called when a method is hit.
